@@ -2,7 +2,17 @@
 The project is a cache-service implement of id list.  
 It improves your database performance by fetch data directly from your cache service instead of going through the database.  
 When your database is updated, you just need to call refresh to reload the data.
+### Setup
+Update Redius DBConnection  
 
+**appsettings.json**
+```
+...
+"Redis": {
+  "DBConnection": "localhost"
+},
+...
+```
 ### API SPEC
 
 <table>
