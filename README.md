@@ -32,7 +32,7 @@ Update Redis DBConnection
 <td>GET</td>
 <td>/Id/GetById?id=100</td>
 <td>Get Id list by Id.</td>
-<td>[{"id":100,"remark":"Remark:380"}</td>
+<td>{"id":100,"remark":"Remark:380"}</td>
 
 </tr>
 <tr>
